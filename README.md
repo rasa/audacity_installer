@@ -1,6 +1,6 @@
 # audacity_installer
 
-audacity_installer lets you download and install Audacity and the following
+audacity_installer downloads and installs Audacity and the following
 Audacity plugins:
 
   1. LADSPA plug-ins
