@@ -31,6 +31,31 @@ Options:
 	5: FFMPEG plug-in
 ````
 
+## Verify a Release
+
+To verify a release, download the .zip, .sha256, and .asc files for the release 
+(replacing audacity_installer-2.0.6.1-win32.zip with the release you are verifying):
+
+````
+$ wget https://github.com/rasa/audacity_installer/releases/download/v2.0.6.1/audacity_installer-2.0.6.1-win32.zip{,.sha256,.asc}
+````
+
+Next, check that sha256sum reports "OK":
+````
+$ sha256sum -c audacity_installer-2.0.6.1-win32.zip.sha256
+audacity_installer-2.0.6.1-win32.zip: OK
+````
+
+Lastly, check that GPG reports "Good signature":
+
+````
+$ gpg --keyserver hkps.pool.sks-keyservers.net --recv-key 0x105a5225b6ab4b22
+$ gpg --verify audacity_installer-2.0.6.1-win32.zip.asc audacity_installer-2.0.6.1-win32.zip
+gpg:                using RSA key 0xFF914F74B4BB6EF3
+gpg: Good signature from "Ross Smith II <ross@smithii.com>" [ultimate]
+...
+````
+
 ## Contributing
 
 To contribute to this project, please see [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -55,7 +80,7 @@ Feedback, suggestions, and enhancements are welcome.
 
 [Ross Smith II]: mailto:ross@smithii.com "ross@smithii.com"
 [flatter]: https://flattr.com/submit/auto?user_id=rasa&url=https%3A%2F%2Fgithub.com%2Frasa%2Faudacity_installer
-[flatter_png]: http://button.flattr.com/flattr-badge-large.png "Flattr this"
+[flatter_png]: http://button.flattr.com/flaudacity_installer-badge-large.png "Flattr this"
 [endorse]: https://coderwall.com/rasa
 [endorse_png]: https://api.coderwall.com/rasa/endorsecount.png "endorse"
 
