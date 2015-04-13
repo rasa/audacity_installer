@@ -1,7 +1,7 @@
 Audacity Software License
 ===================================
 
-AudacityÂ® is free, open source software for recording and editing sounds. It is available for Mac OS X, Microsoft Windows, GNU/Linux, and other operating systems. Learn more about Audacity... Also check our Wiki and Forum for more information.
+Audacity® is free, open source software for recording and editing sounds. It is available for Mac OS X, Microsoft Windows, GNU/Linux, and other operating systems. Learn more about Audacity... Also check our Wiki and Forum for more information.
 
 License: Audacity is free software. You may use it for any personal, commercial or educational purpose, including installing it on as many different computers as you wish. Audacity is licensed under the terms of version 2 of the GNU General Public License (GPL) as published by the Free Software Foundation. The full text of the license is also available when running Audacity, via the Help menu > About Audacity... command > GPL License tab.
 
