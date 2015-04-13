@@ -2,14 +2,13 @@
 
 !define AUDACITY_VER "2.1.0"
 !define AUDACITY_EXE "audacity-win-${AUDACITY_VER}.exe"
-!define AUDACITY_URL "http://tcpdiag.dl.sourceforge.net/project/audacity/audacity/${AUDACITY_VER}/${AUDACITY_EXE}"
+!define AUDACITY_URL "http://downloads.sourceforge.net/project/audacity/audacity/${AUDACITY_VER}/${AUDACITY_EXE}"
 
-# http://tcpdiag.dl.sourceforge.net/project/audacity/audacity/2.1.0/audacity-win-2.1.0.exe
 # http://downloads.sourceforge.net/project/audacity/audacity/2.1.0/audacity-win-2.1.0.exe
 
 !define LADSPA_VER "0.4.15"
 !define LADSPA_EXE "LADSPA_plugins-win-${LADSPA_VER}.exe"
-!define LADSPA_URL "http://tcpdiag.dl.sourceforge.net/project/audacity/audacity-beta/1.3.2/${LADSPA_EXE}"
+!define LADSPA_URL "http://downloads.sourceforge.net/project/audacity/audacity-beta/1.3.2/${LADSPA_EXE}"
 
 # http://downloads.sourceforge.net/project/audacity/audacity-beta/1.3.2/LADSPA_plugins-win-0.4.15.exe
 
