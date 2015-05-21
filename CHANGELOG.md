@@ -1,3 +1,8 @@
+## 2.1.0.1 (20-May-2015)
+
+  * Remove UPX compression
+  * Update Makefile
+
 ## 2.1.0 (11-Apr-2015)
 
   * Upgrade to Audacity 2.1.0
